@@ -10,6 +10,6 @@
 8. Adding pagination to the post list view page 52
 9. Handling pagination errors
 10. Building class-based views
-11. Sending emails with Django page 61
-•Using Django forms to share posts via email
-•Adding comments to posts using forms from models
+11. Sending emails with Django page 61  
+12. Using Django forms to share posts via email
+13. Adding comments to posts using forms from models
