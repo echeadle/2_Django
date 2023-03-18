@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'MST'
 
 USE_I18N = True
 
@@ -122,3 +122,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email server configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'echeadle@gmail.com'
+EMAIL_HOST_PASSWORD = 'zaxorfsrrugifmmg'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+# Sends emails to console for testing.
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# https://myaccount.google.com/apppasswords?rapt=AEjHL4MH-lI6Y7rBp3QxbIpwyEAXJDAYNeTn9dDICXIVTQSsq8zIgTZWSycq2l-1O4ufk9jYazELTrV7ORim8bHMXxe0hQQMPA
