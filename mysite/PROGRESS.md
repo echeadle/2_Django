@@ -7,10 +7,9 @@
    Chapter 2 Page 45
 6. Using canonical URLs for models page 46
 7. Creating SEO-friendly URLs for posts page 48
-8. 
-•Adding pagination to the post list view
+8. Adding pagination to the post list view page 52
+9. Handling pagination errors
 •Building class-based views
 •Sending emails with Django
 •Using Django forms to share posts via email
 •Adding comments to posts using forms from models
-6. 
