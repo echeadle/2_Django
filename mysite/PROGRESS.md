@@ -23,4 +23,4 @@ In order to retrieve similar posts for a specific post, you need to perform the 
 5.In the case of two or more posts with the same number of tags, recommend the most recent post
 6.Limit the query to the number of posts you want to recommend
 16. Creating custom template tags and filters page 106
-17. 
+17. Creating an inclusion template tag
