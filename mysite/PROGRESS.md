@@ -13,3 +13,13 @@
 11. Sending emails with Django page 61  
 12. Using Django forms to share posts via email
 13. Adding comments to posts using forms from models
+14. Add then Filter posts by tags 
+15. Retrieving posts by similarity
+In order to retrieve similar posts for a specific post, you need to perform the following steps:
+1.Retrieve all tags for the current post
+2.Get all posts that are tagged with any of those tags
+3.Exclude the current post from that list to avoid recommending the same post
+4.Order the results by the number of tags shared with the current post
+5.In the case of two or more posts with the same number of tags, recommend the most recent post
+6.Limit the query to the number of posts you want to recommend
+16.
