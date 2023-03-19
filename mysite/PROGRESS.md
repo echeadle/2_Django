@@ -25,4 +25,4 @@ In order to retrieve similar posts for a specific post, you need to perform the 
 16. Creating custom template tags and filters page 106
 17. Creating an inclusion template tag
 18. Creating a template tag that returns a QuerySet
-19. 
+19. Adding a sitemap to the site
