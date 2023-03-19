@@ -24,3 +24,5 @@ In order to retrieve similar posts for a specific post, you need to perform the 
 6.Limit the query to the number of posts you want to recommend
 16. Creating custom template tags and filters page 106
 17. Creating an inclusion template tag
+18. Creating a template tag that returns a QuerySet
+19. 
