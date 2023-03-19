@@ -26,3 +26,4 @@ In order to retrieve similar posts for a specific post, you need to perform the 
 17. Creating an inclusion template tag
 18. Creating a template tag that returns a QuerySet
 19. Adding a sitemap to the site
+20. Creating feeds for blog posts
