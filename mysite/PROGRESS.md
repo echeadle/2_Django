@@ -35,3 +35,5 @@ include the -Xutf8 flag as follows to activate Python UTF-8 mode:
 python -Xutf8 manage.py dumpdata --indent=2 --output=mysite_data.json
 22. Create search forms
 23. Stemming and ranking results
+24. Weighting queries
+25. Searching with trigram similarity
