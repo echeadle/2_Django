@@ -27,3 +27,10 @@ In order to retrieve similar posts for a specific post, you need to perform the 
 18. Creating a template tag that returns a QuerySet
 19. Adding a sitemap to the site
 20. Creating feeds for blog posts
+21. Adding full-text search to the blog
+Execute the following command from the shell prompt:
+python manage.py dumpdata --indent=2 --output=mysite_data.json
+If you get an encoding error when running the command,
+include the -Xutf8 flag as follows to activate Python UTF-8 mode:
+python -Xutf8 manage.py dumpdata --indent=2 --output=mysite_data.json
+22. 
